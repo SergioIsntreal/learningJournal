@@ -26,3 +26,8 @@ Don't feel like touching boolean logic just yet, so I'm booting up a 2D scene.
 
 Rigidbody -> Interpolate is used to get rid of the jitter when jumping, but makes the jump endless since it's just up.  
 Ok, so 'AddForce' and 'transform.Translate' are different in that the former obeys gravity more. It's recommended to exert a force rather than transform objects if you're looking to have physics work correctly.
+
+# 29/10/24
+What are we doing here..?  
+- UI code looks like it's applied to the main camera
+
