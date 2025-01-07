@@ -31,3 +31,5 @@ Ok, so 'AddForce' and 'transform.Translate' are different in that the former obe
 What are we doing here..?  
 - UI code looks like it's applied to the main camera
 
+# 07/01/25
+Starting pretty late, but I have a clearer idea on what I want to do. Clown Control is going to be a railshooter where the camera follows a set path and the player has to shoot the enemies on screen in order to proceed. The tutorials will focus on creating waypoints for the camera to follow, the shooting controls, having the UI display the player's lives and bullets, and programming the camera to stop when a phase of enemies spawn. Depending on how much I can get done, we'll see if I need to simplify the tutorials. I'm aware there are some posted to take pointers off of, but my ideas are very specific and I want to make something more unique in playstyle- also jkust pay homage to House of the Dead 2, since I want to see more games like that one.
