@@ -39,3 +39,13 @@ Starting pretty late, but I have a clearer idea on what I want to do. Clown Cont
 - The Player Object is able to travel from waypoint to waypoint, but the camera does not turn to face the direction of them. I am considering either applying the code to the camera itself (and doing away with the 3D object) or finding a way to have the camera face the direction it is travelling in.
 
 Leaving it off here. As it stands, there seems to be an issue where the camera will teleport further forward when the GameObj reaches certain Waypoints. I suspect the moveCamera and followWP scripts were clashing with each other, so it may need to be simplified. If I cant get it to smoothly traverse between points, I can move onto refinement, but there isn't much time to linger on this starting tutorial.
+
+# 10/01/25
+We're trying a new method; I'm going to mess with code first to ensure it works, THEN I'll make the tutorials. Making the tutorial as I work only means I'll be spending too long editing it when I run into a bug and have to scrap certain steps.
+
+- Can confirm, applying the 'follow waypoints' script directly to the camera works perfectly
+- Initially wanted to lock the crosshair to the screen, but now I'm thinking it'd be better to allow the cursor to point off-screen, as that's how the reloading system worked for the original HotD games.
+- I'm not too sure how enemies would work here. Either I could add scripted events at each waypoint (or in between them), or I give them proximity, but the former seems more in line with how the enemy ai used to work.
+- I hesitate to use any code I don't fully understand the purpose of. Some of the tutorials I'm looking for are blown through quickly or coded for a specific purpose, and my attempts to mix n match what I need for my own script hasn't been very successful.
+
+- Ran into an issue where it wouldn't let me drag and drop sprites for the bullet display, but it seems to be an issue with 2D sprites on a 3D engine. To resolve this, I had to view the image in `Inspector` and change the Texture to Sprite (2D and UI). It's not working with the array, but worked with the public sprites. Linking the ammo displaye to the actual ammo count is a bit tricky to wrap my head around, so I may end up simplifying the UI visuals.
