@@ -49,3 +49,8 @@ We're trying a new method; I'm going to mess with code first to ensure it works,
 - I hesitate to use any code I don't fully understand the purpose of. Some of the tutorials I'm looking for are blown through quickly or coded for a specific purpose, and my attempts to mix n match what I need for my own script hasn't been very successful.
 
 - Ran into an issue where it wouldn't let me drag and drop sprites for the bullet display, but it seems to be an issue with 2D sprites on a 3D engine. To resolve this, I had to view the image in `Inspector` and change the Texture to Sprite (2D and UI). It's not working with the array, but worked with the public sprites. Linking the ammo displaye to the actual ammo count is a bit tricky to wrap my head around, so I may end up simplifying the UI visuals.
+
+# 11/01/25
+I reviewed the first few lines of code I was using for the ammo display. The tutorial I'm following is for 2D rather than 3D, and it's for heart contrainers rather than bullets, but a lot of the same principles apply. I've changed the array to Sprite instead of Image to see if it works. It didn't.
+
+- I got some help from the original poster of the tutorial I was following. The issue was that my gameobjects were set to raw images instead of images, hence it wouldn't let me drag and drop them. Now that the display is up and running, I just need to figure out how to link it to the reload and playerAmmo scripts.
