@@ -54,3 +54,6 @@ We're trying a new method; I'm going to mess with code first to ensure it works,
 I reviewed the first few lines of code I was using for the ammo display. The tutorial I'm following is for 2D rather than 3D, and it's for heart contrainers rather than bullets, but a lot of the same principles apply. I've changed the array to Sprite instead of Image to see if it works. It didn't.
 
 - I got some help from the original poster of the tutorial I was following. The issue was that my gameobjects were set to raw images instead of images, hence it wouldn't let me drag and drop them. Now that the display is up and running, I just need to figure out how to link it to the reload and playerAmmo scripts.
+- As I'm tinkering around with the code, I ended up doing away with playerAmmo and just directly applying its code to ammoDisplay.
+
+The game project now runs as intended. I just need to work backwards and simplify/streamline how I got to this point.
