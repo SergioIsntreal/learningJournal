@@ -47,7 +47,7 @@ We're trying a new method; I'm going to mess with code first to ensure it works,
 - Can confirm, applying the 'follow waypoints' script directly to the camera works perfectly
 - Initially wanted to lock the crosshair to the screen, but now I'm thinking it'd be better to allow the cursor to point off-screen, as that's how the reloading system worked for the original HotD games.
 - I'm not too sure how enemies would work here. Either I could add scripted events at each waypoint (or in between them), or I give them proximity, but the former seems more in line with how the enemy ai used to work.
-- I hesitate to use any code I don't fully understand the purpose of. Some of the tutorials I'm looking for are blown through quickly or coded for a specific purpose, and my attempts to mix n match what I need for my own script hasn't been very successful.
+- I hesitate to use any code I don't fully understand the purpose of. Some of the tutorials I'm looking for are blown through quickly or coded for a specific purpose, and my attempts to mix n match what I need for my own script haven't been very successful.
 
 - Ran into an issue where it wouldn't let me drag and drop sprites for the bullet display, but it seems to be an issue with 2D sprites on a 3D engine. To resolve this, I had to view the image in `Inspector` and change the Texture to Sprite (2D and UI). It's not working with the array, but worked with the public sprites. Linking the ammo displaye to the actual ammo count is a bit tricky to wrap my head around, so I may end up simplifying the UI visuals.
 
