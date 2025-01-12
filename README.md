@@ -60,4 +60,4 @@ I reviewed the first few lines of code I was using for the ammo display. The tut
 The game project now runs as intended. I just need to work backwards and simplify/streamline how I got to this point.
 
 # 12/01/25
-Finalising everything today, only have to reverse engineer the Bullet UI tutorial, as I took bits and pieces from different videos to make it. Reminder to triple check the spelling on the other three tutorials.
+Just finished the last tutorial. Went through them all a few times just to make sure the spelling and syntax was correct. To source screenshots for the tutorials, I made a duplicate project as I was typing them out and would follow the steps. My only mistake was renaming some of the variables, as I would copy and paste code from my original script and it didn't always line up. Either way, everything seems to be in order. I'm quite happy with how much I was able to pick up in a short timespan, though I wish I'd been able to implement the enemy clowns. I fear the ammoDisplay script would need a ton more lines to do with damage and registering hits, which I'm none too familiar with.
